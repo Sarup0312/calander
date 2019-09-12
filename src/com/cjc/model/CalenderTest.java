@@ -8,6 +8,7 @@ public class CalenderTest
 {
 	public static void main(String[] args) 
 	{
+		System.out.println("This is the code for calender");
 		System.setProperty("webdriver.chrome.driver", "E:\\soft\\chrome_new\\chromedriver.exe");
 		WebDriver driver=new ChromeDriver();
 		driver.get("https://jqueryui.com/datepicker/");
